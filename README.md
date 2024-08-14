@@ -20,8 +20,8 @@ First, clone the repository and then run the following command:
 docker compose up -d
 ```
 
-- Open the browser and go to `http://localhost:8080`.
-- To get access to the mailhog, go to `http://localhost:8025`.
+- Open the browser and go to <http://localhost:8080>.
+- To get access to the mailhog, go to <http://localhost:8025>.
 
 ### Restart the container
 
