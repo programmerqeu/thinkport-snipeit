@@ -24,7 +24,7 @@ First, clone the repository and then run the following command:
 docker compose up -d
 ```
 
-- Open the browser and go to `http://localhost:8080`. 
+- Open the browser and go to `http://localhost:8080`.
 - To get access to the mailhog, go to `http://localhost:8025`.
 
 ### Restart the container
@@ -150,32 +150,3 @@ EXPOSE 80
 # Start the Apache server
 CMD ["apache2-foreground"]
 ```
-
-### Docker-Image
-
-Ein Docker-Image ist eine ausführbare Anwendung, die alle benötigten Abhängigkeiten enthält, einschließlich des Betriebssystems, der Bibliotheken, der Tools und der Laufzeitumgebung.
-
-### Docker-Container
-
-Ein Docker-Container ist eine *Instanz* (gestartetes Docker Image) eines Docker-Images. Ein Docker-Container enthält eine ausführbare Anwendung, die alle benötigten Abhängigkeiten enthält, einschließlich des Betriebssystems, der Bibliotheken, der Tools und der Laufzeitumgebung.
-
-### Docker-Compose
-
-Docker-Compose ist ein Tool, mit dem Sie mehrere Docker-Container gleichzeitig erstellen, starten und stoppen können. Docker-Compose verwendet eine YAML-Datei, um die Konfiguration der Docker-Container zu definieren.
-
-### Docker-Registry
-
-Eine Docker-Registry ist ein privates Repository, in dem Docker-Images gehostet werden. Eine Docker-Registry enthält eine Vielzahl von Docker-Images, die von der Organisation erstellt wurden.
-
-#### Docker-Hub
-
-Docker Hub ist ein öffentliches Repository, in dem Docker-Images gehostet werden. Docker Hub enthält eine Vielzahl von Docker-Images, die von der Community erstellt wurden.
-
-
-#### Beispiel Docker-Registries
-
-- [AWS Elastic Container Registry (ECR)](https://aws.amazon.com/ecr/)
-- [Google Container Registry (GCR)](https://cloud.google.com/container-registry)
-- [Azure Container Registry (ACR)](https://azure.microsoft.com/en-us/services/container-registry/)
-- [Docker Hub](https://hub.docker.com/)
-- [GitHUb Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
