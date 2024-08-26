@@ -36,3 +36,21 @@ docker compose run --rm app php artisan key:generate --show
 ```
 
 ---
+
+## The Project
+
+```mermaid
+mindmap
+  root((Targets))
+    Operating Systems
+    ::icon(fa fa-book)
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planningsssss
+            Argument mapping
+    Networks
+      Pen and paper
+      Mermaid
+```
